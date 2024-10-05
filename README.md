@@ -1,37 +1,36 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Next News Today
 
-## Getting Started
+This project is a news aggregation application built using Next.js, TypeScript, and ShadeCN. It aims to provide users with the latest news from various sources in a visually appealing and user-friendly manner.
 
-First, run the development server:
+## Project Overview
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Next News Today serves as a platform where users can explore current news articles across different categories. The application fetches news data from a custom API deployed on Vercel, ensuring quick access to the latest updates. 
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Features
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Dynamic News Fetching:** The application dynamically fetches news articles from an external API, ensuring that users always have access to the latest content.
+  
+- **Responsive Design:** The interface is built with a responsive design to provide a seamless experience on both desktop and mobile devices. 
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Categorized News:** Users can browse news articles categorized by topics, making it easier to find relevant information.
 
-## Learn More
+- **Image Integration:** Each news article includes a relevant image to enhance visual appeal and provide context to the content.
 
-To learn more about Next.js, take a look at the following resources:
+- **User-Friendly Interface:** The design prioritizes user experience, with an intuitive layout and easy navigation.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **Dark Mode Support:** The application offers a dark mode feature, allowing users to switch between light and dark themes for comfortable reading.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- **Search Functionality:** Users can search for specific news articles or topics, enabling them to find information quickly.
 
-## Deploy on Vercel
+- **Bookmarking Articles:** Users can bookmark articles for later reading, allowing them to save their favorite pieces of news.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Tech Stack
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-"# News-Today" 
+- **Next.js:** A React framework that enables server-side rendering and static site generation for optimal performance.
+
+- **TypeScript:** A superset of JavaScript that provides static typing, improving code quality and maintainability.
+
+- **ShadeCN:** A component library for React that offers a collection of UI components for faster development.
+
+- **Vercel:** The platform used to deploy the API, ensuring scalability and performance.
+
